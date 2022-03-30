@@ -9,13 +9,10 @@
                 <h5>Phone Number: @ad.Number</h5>
                 <h3>Details:</h3>
                 <p>@ad.Description</p>
-                @if (ad.BelongsToUser)
-                {
-                    <form method="post" action="/home/deleteadd">
+                  <form method="post" action="/home/DeleteAdd">
                         <input type="hidden" name="id" value="@ad.id" />
                         <button class="btn btn-danger">Delete</button>
                     </form>
-                }
             </div>
         </div>
     </div>
