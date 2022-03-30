@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginAuthorization.Data", "LoginAuthorization.Data\LoginAuthorization.Data.csproj", "{D47FA1BA-23A8-4437-B3DA-8078BD9D1745}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginAuthorization.Web", "LoginAuthorization.Web\LoginAuthorization.Web.csproj", "{FDB2B77D-9F6B-43E5-86E7-001C6A0C9119}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D47FA1BA-23A8-4437-B3DA-8078BD9D1745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D47FA1BA-23A8-4437-B3DA-8078BD9D1745}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D47FA1BA-23A8-4437-B3DA-8078BD9D1745}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D47FA1BA-23A8-4437-B3DA-8078BD9D1745}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDB2B77D-9F6B-43E5-86E7-001C6A0C9119}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDB2B77D-9F6B-43E5-86E7-001C6A0C9119}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDB2B77D-9F6B-43E5-86E7-001C6A0C9119}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDB2B77D-9F6B-43E5-86E7-001C6A0C9119}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7760870-F8C1-4FA5-B604-144E588EFEAC}
+	EndGlobalSection
+EndGlobal
